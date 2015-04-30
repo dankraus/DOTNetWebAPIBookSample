@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-BookSampleApp-20150430113203.mdf;Initial Catalog=aspnet-BookSampleApp-20150430113203;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\dan\\documents\\visual\ studio\ 2013\\Projects\\BookSampleApp\\BookSampleApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="BookSampleAppContext-Web.config Connection String" description="BookSampleAppContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=BookSampleAppContext-20150430120213; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|BookSampleAppContext-20150430120213.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\dan\\documents\\visual\ studio\ 2013\\Projects\\BookSampleApp\\BookSampleApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookSampleAppContext']/@connectionString" />
+  </parameter>
+</parameters>

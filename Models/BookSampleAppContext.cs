@@ -17,6 +17,7 @@ namespace BookSampleApp.Models
     
         public BookSampleAppContext() : base("name=BookSampleAppContext")
         {
+            this.Database.Log = s => System.Diagnostics.Debug.WriteLine(s);
         }
 
         public System.Data.Entity.DbSet<BookSampleApp.Models.Author> Authors { get; set; }
